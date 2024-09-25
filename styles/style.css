@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    color:white;
 }
 
 body{
@@ -12,6 +13,9 @@ body{
  height:100dvh;
  background-size:cover;
  background-position:center;
+ display:flex;
+ justify-content: center;
+ align-items: center;
 }
 body::before{
     content:"";
@@ -20,6 +24,14 @@ body::before{
     height:100dvh;
     background:rgb(0,0,0,0.15);
     backdrop-filter: blur(15px);
-
+}
+.main-container{
     
+    width:300px;
+    height:500px;
+    z-index:1;
+background:linear-gradient(to top,rgb(0,0,0,0.15),
+rgb(255,255,255,0.25));
+border-radius:12px;
+backdrop-filter: blur(100px);
 }
