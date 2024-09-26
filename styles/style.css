@@ -167,5 +167,16 @@ background-color: rgb(255,255,255,0.15);
 /* End section:weather-info */
 
 /* section:message */
-
+.section-message img{
+    height:180px;
+    width:fit-content;
+}
+.section-message{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items:center;
+    margin-top:25%;
+    text-align: center;
+}
 /* end section:message  */ 
