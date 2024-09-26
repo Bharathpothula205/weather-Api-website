@@ -35,6 +35,11 @@ border-radius:12px;
 backdrop-filter: blur(100px);
 padding: 20px;
 }
+
+/* Input container */
+.input-container{
+    position:relative;
+}
 .city-input{
     width:100%;
     border-radius: 99px;
@@ -44,6 +49,7 @@ padding: 20px;
     font-weight:500;
     transition:0.25s border;
     outline:none;
+    padding-right:45px;
 }
 .city-input:focus{
     border:3px solid rgb(0,0,0,0.15);
@@ -54,6 +60,13 @@ padding: 20px;
 }
 .search-btn{
     position:absolute;
+    right:16px;
+    top:50%;
+    transform:translateY(-50%);
+    background: none;
+    display:flex;
+    border:none;
+    cursor:pointer;
 }
-
+/* End input container */
 
