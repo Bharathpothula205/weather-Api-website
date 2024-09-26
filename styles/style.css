@@ -131,6 +131,7 @@ padding: 20px;
 .forecast-items-container{
     display: flex;
     gap:15px;
+    overflow:scroll;
     padding-bottom: 13px;
 }
 .forecast-items{
@@ -142,12 +143,29 @@ padding: 20px;
     gap:6px;
     padding:10px 0px;
     border-radius: 12px;
-  
+    transition:0.3s background;
 }
 .forecast-items-img{
     width:35px;
     height:35px;
 }
-
+.forecast-items-container::-webkit-scrollbar{
+    height:8px;
+}
+.forecast-items-container::-webkit-scrollbar-track{
+    background:rgb(0,0,0,0.15);
+    border-radius:99px ;
+}
+.forecast-items-container::-webkit-scrollbar-thumb{
+    border-radius: 99px;
+    background:rgb(0,0,0,0.15);
+}
+.forecast-items:hover{
+background-color: rgb(255,255,255,0.15);
+}
 
 /* End section:weather-info */
+
+/* section:message */
+
+/* end section:message  */ 
