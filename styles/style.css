@@ -83,6 +83,9 @@ padding: 20px;
 
 /* Section:weather-info */
 .weather-info{
+    display:flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .location-date-container{
@@ -97,3 +100,30 @@ padding: 20px;
     align-items: center;
 }
 /* End section:weather-info */
+
+.weather-summary-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-img{
+
+    width:100px;
+    height: 100px;
+}
+.weather-summary-info{
+    text-align:end;
+}
+.weather-coditions-container{
+    display:flex;
+    justify-content: space-between;
+}
+.condition-items{
+    display:flex;
+    gap:6px;
+    align-items: center;
+}
+.condition-items span{
+    font-size:30px;
+}
