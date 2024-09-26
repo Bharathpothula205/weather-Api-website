@@ -99,7 +99,7 @@ padding: 20px;
     gap:6px;
     align-items: center;
 }
-/* End section:weather-info */
+
 
 .weather-summary-container{
     display:flex;
@@ -127,3 +127,27 @@ padding: 20px;
 .condition-items span{
     font-size:30px;
 }
+
+.forecast-items-container{
+    display: flex;
+    gap:15px;
+    padding-bottom: 13px;
+}
+.forecast-items{
+    min-width:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255,255,255,0.1);
+    gap:6px;
+    padding:10px 0px;
+    border-radius: 12px;
+  
+}
+.forecast-items-img{
+    width:35px;
+    height:35px;
+}
+
+
+/* End section:weather-info */
